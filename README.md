@@ -22,7 +22,7 @@ pod 'TTPopView'
 
 ## Author
 
-princeSmall, le.tong@ly.com
+princeSmall, tongle521@icloud.com
 
 ## License
 
