@@ -7,10 +7,11 @@
 //
 
 #import "TTViewController.h"
-#import "TCTSiftView.h"
 #import "TTPopView.h"
 
 @interface TTViewController ()
+
+@property (nonatomic, strong) UIButton *TTButton;
 
 @end
 
@@ -23,6 +24,13 @@
         
     }];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+- (UIButton *)TTButton{
+    if (!_TTButton) {
+        _TTButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        _TTButton.backgroundColor = [UIColor redColor];
+    }
+    return _TTButton;
 }
 
 - (void)didReceiveMemoryWarning
