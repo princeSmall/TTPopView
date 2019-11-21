@@ -1,0 +1,31 @@
+{
+  "name": "TCTSiftView",
+  "version": "0.0.4",
+  "summary": "TCTSiftView",
+  "description": "TCTSiftView",
+  "homepage": "git@git.17usoft.com:wireless-ios/TCTSiftView.git",
+  "license": "MIT",
+  "authors": {
+    "黄忆旻08110": "hym08110@ly.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "git@git.17usoft.com:wireless-ios/TCTSiftView.git",
+    "tag": "0.0.4"
+  },
+  "source_files": "*.{h,m}",
+  "requires_arc": true,
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "TCTPublicConfig": [
+
+    ],
+    "TCTColorFont": [
+
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - TTPopView (0.1.0)
+
+DEPENDENCIES:
+  - TTPopView (from `../`)
+
+EXTERNAL SOURCES:
+  TTPopView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TTPopView: c5ff59e3e17d2f55b6a6a17e54356e0aa4c39ad5
+
+PODFILE CHECKSUM: d045020ddf7cd2ae9cdf540fb2e37a9dfbe88d11
+
+COCOAPODS: 1.7.3

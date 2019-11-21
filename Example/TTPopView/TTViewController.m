@@ -7,6 +7,8 @@
 //
 
 #import "TTViewController.h"
+#import "TCTSiftView.h"
+#import "TTPopView.h"
 
 @interface TTViewController ()
 
@@ -17,6 +19,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [TTPopView TTPopViewWithblocks:^(BOOL isCancel) {
+        
+    }];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

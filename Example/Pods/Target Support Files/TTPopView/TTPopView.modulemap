@@ -1,0 +1,6 @@
+framework module TTPopView {
+  umbrella header "TTPopView-umbrella.h"
+
+  export *
+  module * { export * }
+}

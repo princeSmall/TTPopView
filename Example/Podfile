@@ -1,16 +1,11 @@
-use_frameworks!
-
-platform :ios, '8.0'
+source 'git@git.17usoft.com:wireless-ios/iPhone_Specs.git'
+platform :ios, '9.0'
 
 target 'TTPopView_Example' do
-  pod 'TTPopView', :path => '../'
-
-  target 'TTPopView_Tests' do
-    inherit! :search_paths
-
-    pod 'Specta'
-    pod 'Expecta'
-    pod 'FBSnapshotTestCase'
-    pod 'Expecta+Snapshots'
-  end
+     pod 'TTPopView', :path => '../'
+#pod 'TCTSiftView', :path => '/Users/letong/Desktop/TCTSiftView/TCTSiftView.podspec'
+#    pod 'Specta'
+#    pod 'Expecta'
+#    pod 'FBSnapshotTestCase'
+#    pod 'Expecta+Snapshots'
 end

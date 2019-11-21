@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26884F8216C10F9A75C450FB260088B9 /* TTPopView.h in Headers */ = {isa = PBXBuildFile; fileRef = E1831445B11C98478581507D51A9CDEA /* TTPopView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3E531BD7F796A893726CF89AB0908DA4 /* TTPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BE639ADAA54B06167391CE3458D08 /* TTPopView.m */; };
+		674C7978C76898180B2E6FB4EA883321 /* Pods-TTPopView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6214FF8665E1807EEE255E7A39EA26A /* Pods-TTPopView_Example-dummy.m */; };
+		ACA4C107C290419094740AACE35E14A0 /* TTPopView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 988536C24EB0FB3EB7C5154C9C24CFAF /* TTPopView-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55EBBB6119E8659DCDAA7822EDE93FDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB4E3EC43D2C45EB667C5300513E2E19;
+			remoteInfo = TTPopView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29B3BDF1038EA8521746AF40A229CF8C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		480958CFA44085422B6C7604A1433238 /* Pods-TTPopView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTPopView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4877C05FE6D4F76F43BFFC781DE6AE9E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4E20547D2DAD1163B3872C44A544D791 /* libTTPopView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTTPopView.a; path = libTTPopView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		685076BFC0BFCC2BA38CE17E6C464111 /* Pods-TTPopView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTPopView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7BCAD0FCB92F50DE773C2649971BA1C9 /* TTPopView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TTPopView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94D73A3C552FACFAB601BB73EABE48A6 /* libPods-TTPopView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TTPopView_Example.a"; path = "libPods-TTPopView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		977FAAD8DF549D665E30134B106C6B20 /* TTPopView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTPopView-prefix.pch"; sourceTree = "<group>"; };
+		988536C24EB0FB3EB7C5154C9C24CFAF /* TTPopView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTPopView-dummy.m"; sourceTree = "<group>"; };
+		9A0BE639ADAA54B06167391CE3458D08 /* TTPopView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTPopView.m; path = TTPopView/Classes/TTPopView.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D6214FF8665E1807EEE255E7A39EA26A /* Pods-TTPopView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTPopView_Example-dummy.m"; sourceTree = "<group>"; };
+		DE974132DF95110843E1B239C0F1B1F0 /* TTPopView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTPopView.xcconfig; sourceTree = "<group>"; };
+		E1831445B11C98478581507D51A9CDEA /* TTPopView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTPopView.h; path = TTPopView/Classes/TTPopView.h; sourceTree = "<group>"; };
+		E3E24C169DB8789350D6FDE86C0806F5 /* Pods-TTPopView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTPopView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EC087E4B85282E6F1807090EC869ADC9 /* Pods-TTPopView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTPopView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B74EFDF8716942F93A44987E5D8351C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73DA2EC312E9CE883261470E3F9B107 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F28441BC3EBA886D17116AF7B7A868B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80B0DE4AFE72C7B19BE84CB8A4FB6157 /* Pods-TTPopView_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2405D87D1ECAB82A7F661D8268B1DE53 /* TTPopView */ = {
+			isa = PBXGroup;
+			children = (
+				E1831445B11C98478581507D51A9CDEA /* TTPopView.h */,
+				9A0BE639ADAA54B06167391CE3458D08 /* TTPopView.m */,
+				9F4980C3990F6D866F8EB56C9A6DF03B /* Pod */,
+				9314880E9E0A90BFBB6F99B09662DF82 /* Support Files */,
+			);
+			name = TTPopView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		54DC3105D55D4110FBCC8601839A259C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2405D87D1ECAB82A7F661D8268B1DE53 /* TTPopView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		80B0DE4AFE72C7B19BE84CB8A4FB6157 /* Pods-TTPopView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EC087E4B85282E6F1807090EC869ADC9 /* Pods-TTPopView_Example-acknowledgements.markdown */,
+				685076BFC0BFCC2BA38CE17E6C464111 /* Pods-TTPopView_Example-acknowledgements.plist */,
+				D6214FF8665E1807EEE255E7A39EA26A /* Pods-TTPopView_Example-dummy.m */,
+				E3E24C169DB8789350D6FDE86C0806F5 /* Pods-TTPopView_Example.debug.xcconfig */,
+				480958CFA44085422B6C7604A1433238 /* Pods-TTPopView_Example.release.xcconfig */,
+			);
+			name = "Pods-TTPopView_Example";
+			path = "Target Support Files/Pods-TTPopView_Example";
+			sourceTree = "<group>";
+		};
+		9314880E9E0A90BFBB6F99B09662DF82 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE974132DF95110843E1B239C0F1B1F0 /* TTPopView.xcconfig */,
+				988536C24EB0FB3EB7C5154C9C24CFAF /* TTPopView-dummy.m */,
+				977FAAD8DF549D665E30134B106C6B20 /* TTPopView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TTPopView";
+			sourceTree = "<group>";
+		};
+		991A6BB63DBC39869668815832F7CD02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94D73A3C552FACFAB601BB73EABE48A6 /* libPods-TTPopView_Example.a */,
+				4E20547D2DAD1163B3872C44A544D791 /* libTTPopView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F4980C3990F6D866F8EB56C9A6DF03B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				29B3BDF1038EA8521746AF40A229CF8C /* LICENSE */,
+				4877C05FE6D4F76F43BFFC781DE6AE9E /* README.md */,
+				7BCAD0FCB92F50DE773C2649971BA1C9 /* TTPopView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				54DC3105D55D4110FBCC8601839A259C /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				991A6BB63DBC39869668815832F7CD02 /* Products */,
+				0F28441BC3EBA886D17116AF7B7A868B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4129E9812E992D5B63C9FAB12F78052A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C045E59E4913852F77E9C5E5DC8635D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26884F8216C10F9A75C450FB260088B9 /* TTPopView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		993D4C112A6016F8F431A777843BF4A2 /* Pods-TTPopView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 747D589E55F917193610A17D967B778A /* Build configuration list for PBXNativeTarget "Pods-TTPopView_Example" */;
+			buildPhases = (
+				4129E9812E992D5B63C9FAB12F78052A /* Headers */,
+				EC4584AA26D70D3C9D57541B1185DF6A /* Sources */,
+				C73DA2EC312E9CE883261470E3F9B107 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91F07B39DDCD507875DE33641DEF8095 /* PBXTargetDependency */,
+			);
+			name = "Pods-TTPopView_Example";
+			productName = "Pods-TTPopView_Example";
+			productReference = 94D73A3C552FACFAB601BB73EABE48A6 /* libPods-TTPopView_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AB4E3EC43D2C45EB667C5300513E2E19 /* TTPopView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31DC83CE34D71E6690696020A5974B9B /* Build configuration list for PBXNativeTarget "TTPopView" */;
+			buildPhases = (
+				C045E59E4913852F77E9C5E5DC8635D3 /* Headers */,
+				F855D5968092FCB89208BC437C8515DA /* Sources */,
+				B74EFDF8716942F93A44987E5D8351C7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTPopView;
+			productName = TTPopView;
+			productReference = 4E20547D2DAD1163B3872C44A544D791 /* libTTPopView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 991A6BB63DBC39869668815832F7CD02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				993D4C112A6016F8F431A777843BF4A2 /* Pods-TTPopView_Example */,
+				AB4E3EC43D2C45EB667C5300513E2E19 /* TTPopView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC4584AA26D70D3C9D57541B1185DF6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				674C7978C76898180B2E6FB4EA883321 /* Pods-TTPopView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F855D5968092FCB89208BC437C8515DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA4C107C290419094740AACE35E14A0 /* TTPopView-dummy.m in Sources */,
+				3E531BD7F796A893726CF89AB0908DA4 /* TTPopView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91F07B39DDCD507875DE33641DEF8095 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTPopView;
+			target = AB4E3EC43D2C45EB667C5300513E2E19 /* TTPopView */;
+			targetProxy = 55EBBB6119E8659DCDAA7822EDE93FDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		125A00ACF45055F712A1B575FEDBDB77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE974132DF95110843E1B239C0F1B1F0 /* TTPopView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TTPopView/TTPopView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TTPopView;
+				PRODUCT_NAME = TTPopView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B4B4EA6D34976F0F9165B568E5B451B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 480958CFA44085422B6C7604A1433238 /* Pods-TTPopView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D9A7389938DF027EA265EC05F93279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3E24C169DB8789350D6FDE86C0806F5 /* Pods-TTPopView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CB01488E3AB6AA9D6F9503D781F01CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE974132DF95110843E1B239C0F1B1F0 /* TTPopView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TTPopView/TTPopView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TTPopView;
+				PRODUCT_NAME = TTPopView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31DC83CE34D71E6690696020A5974B9B /* Build configuration list for PBXNativeTarget "TTPopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB01488E3AB6AA9D6F9503D781F01CCF /* Debug */,
+				125A00ACF45055F712A1B575FEDBDB77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		747D589E55F917193610A17D967B778A /* Build configuration list for PBXNativeTarget "Pods-TTPopView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D9A7389938DF027EA265EC05F93279 /* Debug */,
+				3B4B4EA6D34976F0F9165B568E5B451B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
