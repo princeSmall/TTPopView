@@ -20,6 +20,16 @@ it, simply add the following line to your Podfile:
 pod 'TTPopView'
 ```
 
+## How to use
+
+```
+ #import "TTPopView.h"
+
+ [TTPopView TTPopViewWithblocks:^(BOOL isCancel) {
+
+ }];
+```
+
 ## Author
 
 princeSmall, tongle521@icloud.com
